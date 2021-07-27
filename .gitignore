@@ -1,23 +1,26 @@
-# Compiled class file
-*.class
+node_modules/
 
-# Log file
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# BlueJ files
-*.ctxt
+# Optional npm cache directory
+.npm
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Optional eslint cache
+.eslintcache
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Optional REPL history
+.node_repl_history
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+###
+# Windows
